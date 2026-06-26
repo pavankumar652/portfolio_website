@@ -1,0 +1,141 @@
+html{
+    scroll-behavior:smooth;
+}
+
+:root{
+  --primary:#2563eb;
+  --secondary:#4f46e5;
+  --accent:#06b6d4;
+  --bg:#ffffff;
+  --card:#f8fafc;
+  --text:#0f172a;
+  --border:#e2e8f0;
+}
+
+@media (max-width: 992px){
+
+    .hero-title{
+        font-size: 3rem !important;
+    }
+
+    .hero-subtitle,
+    .hero-role{
+        font-size: 1.5rem !important;
+    }
+
+    .hero-text,
+    .hero-description{
+        font-size: 1rem !important;
+    }
+
+    .about-image{
+        margin-bottom: 30px;
+    }
+
+    .section-title h2{
+        font-size: 2rem;
+    }
+
+    .timeline{
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px){
+
+    .hero-section{
+        text-align: center;
+        padding: 60px 0;
+    }
+
+    .hero-title{
+        font-size: 2.5rem !important;
+    }
+
+    .hero-subtitle,
+    .hero-role{
+        font-size: 1.3rem !important;
+    }
+
+    .hero-btns{
+        display:flex;
+        flex-direction:column;
+        gap:15px;
+        align-items:center;
+    }
+
+    .hero-image,
+    .profile-image{
+        width:280px !important;
+        height:auto !important;
+        margin-top:30px;
+    }
+
+    .about-title{
+        font-size:2rem;
+        text-align:center;
+    }
+
+    .about-subtitle{
+        text-align:center;
+    }
+
+    .about-text{
+        text-align:center;
+    }
+
+    .about-points{
+        grid-template-columns:1fr;
+    }
+
+    .section-header{
+        flex-direction:column;
+        gap:15px;
+        text-align:center;
+    }
+
+    .skills-grid{
+        grid-template-columns:1fr;
+    }
+
+    .contact-info{
+        margin-bottom:25px;
+    }
+
+    .footer{
+        text-align:center;
+    }
+
+    .footer-links{
+        margin-top:15px;
+    }
+}
+
+@media (max-width: 576px){
+
+    .hero-title{
+        font-size:2rem !important;
+    }
+
+    .logo{
+        font-size:1.5rem;
+    }
+
+    .stat-card h2{
+        font-size:32px;
+    }
+
+    .project-card,
+    .service-card,
+    .info-card,
+    .skills-card,
+    .other-skills-card,
+    .contact-form,
+    .contact-info{
+        padding:20px;
+    }
+
+    .timeline-item{
+        padding-left:55px;
+    }
+}

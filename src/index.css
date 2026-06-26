@@ -1,0 +1,29 @@
+:root{
+  --primary:#2563eb;
+  --secondary:#4f46e5;
+  --accent:#06b6d4;
+  --bg:#ffffff;
+  --card:#f8fafc;
+  --text:#0f172a;
+  --border:#e2e8f0;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family: "Poppins", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+a{
+  text-decoration:none;
+}
+
+ul{
+  list-style:none;
+}
